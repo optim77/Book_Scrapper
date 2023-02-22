@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import pl.bot.Actions;
 import pl.bot.Engine;
+import utils.Cookie;
 import utils.FileMaker;
 
 import java.io.IOException;
@@ -38,7 +39,8 @@ public class Genres extends PageObject {
 
     public void getByGenres(String genres) throws IOException {
         openApp();
-        acceptCookies();
+        Cookie.acceptCookie(driver, "onetrust-accept-btn-handler" ,"id");
+        //acceptCookies();
         openGenres(genres);
         selectItemOrder();
         scrapAndSaveToFile(genres);

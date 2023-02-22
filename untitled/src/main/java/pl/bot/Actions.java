@@ -3,6 +3,7 @@ package pl.bot;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import scrapper.Author;
 import scrapper.Books;
 import scrapper.Genres;
 import utils.SmallActions;
@@ -14,6 +15,8 @@ public class Actions extends Engine {
 
     Books booksScrapper;
     Genres genresScrapper;
+
+    Author authorScrapper;
     String title = "1984";
 
     String[] genres = {
@@ -31,6 +34,7 @@ public class Actions extends Engine {
     public void beforeSetup(){
         booksScrapper = new Books(getDriver(), title);
         genresScrapper = new Genres(getDriver());
+        authorScrapper = new Author(getDriver());
     }
 
     @Test
@@ -43,8 +47,9 @@ public class Actions extends Engine {
         genresScrapper.getByGenres(genres[0]);
     }
 
-    public void getBooksByAuthor(){
-
+    @Test
+    public void getBooksByAuthor() throws IOException {
+        authorScrapper.getByAuthor("proust");
     }
 
 }
