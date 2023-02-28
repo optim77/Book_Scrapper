@@ -1,80 +1,80 @@
-Title: Misery
+Title: Obojętny
 Author: proust
-Rating: 7,7
+Rating: 6,6
  
-Title: Mroczna Wieża: Upadek Gilead
+Title: Chardin&Rembrandt
 Author: proust
-Rating: 7,7
+Rating: 6,8
  
-Title: Secret Windows: Essays and Fiction on the Craft of Writing
+Title: The Collected Poems
 Author: proust
-Rating: 7,7
+Rating: 7,0
  
-Title: Wilki z Calla
+Title: Tajemniczy korespondent
 Author: proust
-Rating: 7,7
+Rating: 7,1
  
-Title: Lśnienie
+Title: Jan Santeuil
 Author: proust
-Rating: 7,7
+Rating: 7,1
  
-Title: Mroczna Wieża: Bitwa o Jericho Hill
+Title: Pamięć i styl
 Author: proust
-Rating: 7,7
+Rating: 7,3
  
-Title: To
+Title: Śmierć katedr
 Author: proust
-Rating: 7,7
+Rating: 7,5
  
-Title: Mroczna Wieża - Rewolwerowiec: Bitwa o Tull
+Title: Literatura na świecie nr 10-11/1999 (339-340)
 Author: proust
-Rating: 7,8
+Rating: 7,5
  
-Title: N.
-Author: proust
-Rating: 7,8
- 
-Title: Czarnoksiężnik i kryształ
+Title: W stronę Swanna
 Author: proust
 Rating: 7,8
  
-Title: Bastion
-Author: proust
-Rating: 7,9
- 
-Title: Mroczna Wieża
-Author: proust
-Rating: 7,9
- 
-Title: Stephen King: Three Novels
-Author: proust
-Rating: 7,9
- 
-Title: Trylogia
-Author: proust
-Rating: 7,9
- 
-Title: The Stand
+Title: Lettres à Reynaldo Hahn
 Author: proust
 Rating: 8,0
  
-Title: Skazani na Shawshank
+Title: Melancholiczna wilegiatura Pani de Breyves
 Author: proust
 Rating: 8,0
  
-Title: Wiosna nadziei: Skazani na Shawshank
+Title: Wahania serca
+Author: proust
+Rating: 8,0
+ 
+Title: Uwięziona
+Author: proust
+Rating: 8,1
+ 
+Title: Nie ma Albertyny
+Author: proust
+Rating: 8,1
+ 
+Title: Strona Guermantes
+Author: proust
+Rating: 8,1
+ 
+Title: Sodoma i Gomora
 Author: proust
 Rating: 8,2
  
-Title: Dallas '63
+Title: W cieniu zakwitających dziewcząt
 Author: proust
-Rating: 8,3
+Rating: 8,2
  
-Title: The Shawshank Redemption: The Shooting Script
+Title: Czas odnaleziony
 Author: proust
-Rating: 8,3
+Rating: 8,4
  
-Title: Zielona Mila
+Title: Normandia i inne opowiadania
 Author: proust
 Rating: 8,5
+ 
+Title: Sprawa Lemoine'a
+Author: proust
+Rating: 9,2
  

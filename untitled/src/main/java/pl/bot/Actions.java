@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import scrapper.Author;
 import scrapper.Books;
 import scrapper.Genres;
+import scrapper.TopBooks;
 import utils.SmallActions;
 
 import java.io.IOException;
@@ -17,6 +18,8 @@ public class Actions extends Engine {
     Genres genresScrapper;
 
     Author authorScrapper;
+
+    TopBooks topBooks;
     String title = "1984";
 
     String[] genres = {
@@ -35,6 +38,7 @@ public class Actions extends Engine {
         booksScrapper = new Books(getDriver(), title);
         genresScrapper = new Genres(getDriver());
         authorScrapper = new Author(getDriver());
+        topBooks = new TopBooks(getDriver());
     }
 
     @Test
@@ -50,6 +54,11 @@ public class Actions extends Engine {
     @Test
     public void getBooksByAuthor() throws IOException {
         authorScrapper.getByAuthor("proust");
+    }
+
+    @Test
+    public void getTop100() throws IOException, InterruptedException {
+        topBooks.getTop100(false);
     }
 
 }
